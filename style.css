@@ -1,0 +1,218 @@
+#body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-image
+{
+    max-height: 100%;
+}
+
+.image
+{
+    border:5px solid white;
+    position:absolute;
+    width:100%; 
+    height:100%;
+    background:black;
+    background-image:url("grafika/siedziba.png");
+    background-size:cover;
+    overflow-y: scroll;
+}
+
+#carouselExampleDark
+{
+    margin-bottom: 5px;
+}
+
+.navbutton
+{
+    border: 2px goldenrod;
+    background-color: silver;
+    padding: 10px;
+    margin: 5px;
+}
+
+#top
+{
+    height: 60px;
+}
+
+a
+{
+    text-decoration: none;
+    border: 1 orange;
+}
+
+#left
+{ 
+    float: left;
+    width: 50%;
+    height: 30%;
+    text-align: center;
+    glyph-orientation-vertical: inherit;
+    text-align: center;
+    font-size: 22;
+    background-color: rgba(200, 200, 200, 0.5);
+    margin-bottom: 5px;
+}
+
+h2
+{
+    text-decoration-style: none;
+    color: red;
+    word-spacing: normal;
+}
+
+.marka
+{
+    padding: auto;
+    height: 44px;
+}
+
+#right
+{ 
+    width: 50%;
+    height: 30%;
+    float: left;
+    text-align: center;
+    background-color: rgba(255, 250, 250, 0.5);
+    margin-bottom: 5px;
+}
+
+#siedziba
+{
+    text-align: center;
+    align-self: center;
+    max-width: 100%;
+}
+
+.marka1
+{
+    width: 100%;
+    height: 100%;
+}
+
+#mid
+{
+    background-color: rgba(0, 0, 0, 0.9);
+    clear: both;
+    font-size: 50;
+    vertical-align: middle;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+#midleft
+{
+    float: left;
+    width: 50%;
+    height: 30%;
+}
+
+#midright
+{
+    float: left;
+    width: 50%;
+    height: 30%;
+}
+
+#logo
+{
+    max-width: 100%
+}
+
+#downleft
+{
+    text-align: center;
+    width: 50%;
+    height: 30%;
+    float: left;
+    background-color: rgba(250, 250, 250, 0.5);
+    margin-bottom: 5px;
+}
+
+#navframe
+{
+    width: 100%;
+    height: 100%;
+}
+
+#downright
+{
+    text-align: center;
+    width: 50%;
+    height: 30%;
+    float: left;
+    font-size: 30px;
+    background-color: rgba(250, 250, 250, 0.5);
+    margin-bottom: 5px;
+}
+
+#about
+{
+    vertical-align: middle;
+}
+
+#feet
+{
+    clear: both;
+    text-align: end;
+    color: gray;
+    background-color: rgba(255, 255, 255, 0.75);
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+form
+{
+    text-align: center;
+    margin: 30px;
+}
+
+p
+{
+    text-indent: 10px;
+}
+
+#naszemarkiheader
+{
+    text-align: center;
+    font-style: oblique;
+}
+
+#ytframe
+{
+    width: 100%;
+    height: 700px;
+}
+
+#messagebox
+{
+    text-align: center;
+}
+
+.marka3
+{
+    background-color: rgba(40, 150, 150, 0.5);
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    margin-bottom: 20px;
+    height: 200px;
+}
+
+#markicontainer
+{  
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#container
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}

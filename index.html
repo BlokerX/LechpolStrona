@@ -1,0 +1,189 @@
+<html lang="pl">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Lechpol - strona reklamowa</title>
+    
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <!--Własne style-->
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+    <!--Wykres google-->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+</head>
+
+<body>
+<div class="image"/>
+
+    <div id="top"></div>
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <div class="nav-container">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link js-scroll-trigger" href="index.html">Strona Główna</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="naszemarki.html">Marki</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="kontakt.php">Kontakt</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="ofirmie.html">O firmie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="https://goo.gl/maps/ncpfqNVV5yAopX6bA" target="_blank">Trasa</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="container">
+
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="grafika/siedziba.jpg" class="d-block w-100 carousel carousel-image" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Firma posiada przyjazną atmosferę</h5>
+                  <p>Jesteśmy dumni z naszej kadry pracowniczej i jej umiejętności w pracy.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="grafika/prezes.jfif" class="d-block w-100 carousel-image" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Prezes firmy Lechpol</h5>
+                  <p>Cieszymy się dobrym prezesem i kadrą szefostwa.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="grafika/lechpol.png" class="d-block w-100 carousel-image" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Lechpol</h5>
+                  <p>Zapraszamy do współpracy.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+        <a href="naszemarki.html">
+            <div id="left">
+
+                <h2>Nasze marki:</h2>
+
+                <img class="marka" src="grafika/cabletech.jpg" alt="CABLETECH" />
+                <img class="marka" src="grafika/krugermatz.png" alt="KRUGER&MATZ" />
+                <img class="marka" src="grafika/rebelelectro.png" alt="REBELELECTRO" />
+                <img class="marka" src="grafika/teesa.jpg" alt="TEESA" />
+                <img class="marka" src="grafika/peiying.jpg" alt="PEIYING" />
+                <img class="marka" src="grafika/azusa.jpg" alt="AZUSA" />
+                <img class="marka" src="grafika/quer.jpg" alt="QUER" />
+                <img class="marka" src="grafika/peiying.jpg" alt="PEIYING" />
+
+            </div>
+        </a>
+
+        <a target="_blank" href="https://www.lechpol.pl/">
+            <div id="right">
+                <h2>
+                    Odwiedź nasz sklep<br />
+                    Lechpol.pl
+                </h2>
+                Kliknij w ten baner
+            </div>
+        </a>
+
+        <div id="mid">
+            <img id="logo" src="grafika/logo.jpg" alt="Lechpol Electronics" />
+        </div>
+
+        <div id="downleft">
+            <iframe id="navframe"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9842.41309128472!2d21.576116393260442!3d51.92294892528736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4718c8ba0b0d80a9%3A0x89e4c03659229a1b!2sLechpol%20Electronics!5e0!3m2!1spl!2spl!4v1673856325314!5m2!1spl!2spl"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div id="downright">
+            <p id="about">
+                <b>Lechpol Electronics Leszek Sp.k.</b><br />
+                Miętne ul.Garwolińska 1<br />
+                08-400 Garwolin POLAND<br />
+                Tel: +48 25 685 00 30
+            </p>
+        </div>
+
+        <h1>Przykładowy tekst</h1>
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pretium massa sed blandit placerat. Fusce ac risus vitae libero aliquam pretium ut sit amet velit. Donec tortor orci, faucibus a sodales eu, gravida nec nisl. Aenean ac lectus ut mauris varius porttitor eleifend ac nisl. Proin elit augue, imperdiet et hendrerit non, tincidunt et lorem. Sed sodales laoreet ligula, tristique faucibus risus tempus vel. Pellentesque ut lacus non massa laoreet ornare. Nunc posuere ipsum sed ligula convallis consectetur. Praesent tincidunt ligula vitae tortor lacinia aliquet. Curabitur eleifend at urna a porttitor. Cras pellentesque ligula nec dignissim molestie. Aliquam quis commodo eros. Fusce gravida lorem sed elementum fermentum. Duis imperdiet tortor in arcu finibus, in gravida lacus elementum. Suspendisse sollicitudin a velit sed posuere.
+
+Etiam sit amet tempus mi. Aliquam sapien risus, tincidunt non commodo non, suscipit vulputate massa. Sed accumsan aliquam enim sed posuere. Integer dictum nibh tortor, id maximus velit fermentum sit amet. Phasellus vitae libero at odio viverra convallis. Vestibulum at pulvinar mauris, elementum dapibus nisi. Proin nulla risus, pellentesque sit amet condimentum vitae, lobortis vitae justo. Cras porttitor lobortis erat, quis luctus eros accumsan sit amet. Proin ac elit vel nibh euismod scelerisque. Mauris maximus felis ac enim tempus tincidunt. Morbi a orci volutpat, lacinia orci non, malesuada sapien.
+
+Nullam vel ornare nulla. Nulla facilisis pretium dui, in porta urna consequat a. Phasellus augue mi, auctor a luctus et, dictum non velit. Donec lacus enim, ullamcorper sit amet interdum sit amet, cursus sed felis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean scelerisque sed mi quis vehicula. Aenean sagittis augue non condimentum fringilla. Maecenas lobortis sed mauris ut sagittis. Aenean suscipit, nulla ac varius dignissim, elit tellus luctus lorem, in aliquam elit tellus in urna. Nam ante mauris, hendrerit at dolor ac, rutrum fringilla urna. Aliquam posuere mollis cursus. Integer tincidunt, sem vitae imperdiet sagittis, purus purus cursus tellus, in sodales enim mi et justo. Etiam lacinia luctus lectus ut pulvinar. Nulla dignissim mauris vel blandit pharetra. Fusce dignissim leo ut est accumsan feugiat. Donec convallis tellus eget lacus blandit auctor.
+
+<script type="text/javascript">
+    google.charts.load('current', {'packages':['corechart']});
+    google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+      var data = google.visualization.arrayToDataTable([
+        ['Year', 'Sales'],
+        ['2004',  1000],
+        ['2005',  1170],
+        ['2006',  660],
+        ['2007',  1030]
+      ]);
+
+      var options = {
+        title: 'Company Performance',
+        curveType: 'function',
+        legend: { position: 'bottom' }
+      };
+
+      var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+
+      chart.draw(data, options);
+    }
+  </script>
+  <div id="curve_chart" style="width: 900px; height: 500px; margin:auto;"></div>
+
+Vestibulum nec rhoncus tellus. Suspendisse vel nisl vel ante volutpat aliquet. Cras lobortis lorem eu bibendum vehicula. Nunc suscipit odio porta risus scelerisque fringilla. Curabitur tincidunt pellentesque leo, sit amet vestibulum metus dignissim fermentum. Phasellus sollicitudin orci sed cursus venenatis. Sed ut laoreet nulla. Ut aliquet sem quis dui tincidunt congue. Vivamus in orci urna.
+
+Mauris et quam non odio cursus volutpat in nec justo. Sed tincidunt commodo vestibulum. Pellentesque efficitur et massa nec accumsan. Donec gravida dolor diam, eu cursus mauris sodales non. Duis est augue, tristique elementum ipsum a, venenatis ultrices erat. Nunc eleifend ultrices diam, consectetur gravida lectus ultricies ultricies. Suspendisse potenti. Pellentesque eleifend ligula quis elit euismod, vitae mattis libero tincidunt. Vivamus nisi sem, rhoncus ut sapien ac, viverra molestie leo. Aenean placerat semper diam, nec auctor dui auctor ut. Maecenas pulvinar eu metus nec pulvinar. Phasellus at consequat purus. Praesent accumsan in diam id pulvinar. Morbi egestas ipsum et lorem posuere, at rutrum sapien ultricies. Praesent laoreet orci augue, at venenatis lacus ullamcorper et.<br/>
+
+        <div id="feet">Strona zaprojektowana przez: Jakub Michalik</div>
+
+    </div>
+
+</body>
+
+</html>
